@@ -1,5 +1,4 @@
 FORMAT: 1A
-HOST:
 
 # Sample API
 
@@ -25,12 +24,12 @@ Sample documentation of API
 
     + Body
 
-        [
-            {
-                "id": "1",
-                "name": "test",
-                "age": 33,
-                "gender": 1,
-            }
-        ]
+            [
+                {
+                    "id": "1",
+                    "name": "test",
+                    "age": 33,
+                    "gender": 1,
+                }
+            ]
 
