@@ -3,16 +3,13 @@ HOST:
 
 # Sample API
 
-SampleのAPI仕様書
+Sample documentation of API
 
 # Group USERS
 
 ## Users [/api/users]
 
-### 全ユーザー情報を取得する [GET]
-
-+ Headers
-    Authorization: Barare ...
+### Get users [GET]
 
 + Response 200 (application/json)
 
@@ -22,9 +19,9 @@ SampleのAPI仕様書
         + age (number)
         + gender (enum[number])
             + Members
-                + 1 - 男性
-                + 2 - 女性
-                + 3 - その他
+                + 1 - man
+                + 2 - woman
+                + 3 - other
 
     + Body
 
